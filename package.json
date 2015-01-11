@@ -1,0 +1,29 @@
+{
+  "name": "fs-cloud",
+  "version": "1.0.0",
+  "description": "MongoDB as fs. Expect to build as a universal fs.cloud, for more cloud databases, like Amazon S3.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "fs",
+    "cloud",
+    "disk",
+    "drive"
+  ],
+  "author": "Víctor Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "merge": "^1.2.0",
+    "mime": "^1.2.11",
+    "mongodb": "^1.4.28"
+  },
+  "devDependencies": {
+    "async": "^0.9.0",
+    "dotenv": "^0.4.0",
+    "mocha": "*"
+  }
+}
